@@ -1,0 +1,64 @@
+http://landrick.react.themesbrand.com/index
+http://landrick.react.themesbrand.com/index-it-solution
+http://localhost:3000/components
+http://localhost:3000/index-agency
+http://localhost:3000/index-studio
+http://localhost:3000/index-services
+http://localhost:3000/index-business
+http://localhost:3000/index-developer
+http://localhost:3000/index-personal
+http://localhost:3000/index-digital-agency
+
+
+////
+
+//////
+For team members
+http://localhost:3000/page-team
+http://localhost:3000/index-onepage
+http://localhost:3000/page-aboutus-two
+http://localhost:3000/page-history
+
+
+////services
+http://localhost:3000/page-services
+
+///Thankyou
+http://localhost:3000/page-thankyou
+
+/Contact
+http://localhost:3000/page-contact-one
+
+
+/Under maintainance
+http://localhost:3000/page-maintenance
+
+/coming soon
+http://localhost:3000/page-comingsoon
+
+/Terms of service
+http://localhost:3000/page-terms
+http://localhost:3000/page-privacy
+
+/Login
+http://localhost:3000/auth-login
+http://localhost:3000/auth-cover-login
+http://localhost:3000/auth-login-three
+
+
+/Signup
+http://localhost:3000/auth-signup-three
+http://localhost:3000/auth-cover-signup
+http://localhost:3000/auth-signup
+
+
+http://localhost:3000/page-work-modern
+
+
+/Email template
+http://localhost:3000/email-confirmation
+http://localhost:3000/email-password-reset
+http://localhost:3000/email-invoice
+
+/Faq's
+http://localhost:3000/helpcenter-faqs

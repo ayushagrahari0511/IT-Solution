@@ -14,7 +14,8 @@ import About from "../LandingThree/About";
 import Reviews from "../Job/Reviews";
 import WhatWeDo from "../ITSolution/WhatWeDo";
 import Appointment from "../Hospital/Appointment";
-
+import PageContactOne from "../Pages/Contact/PageContactOne";
+import Contact from "./Contact";
 // Import sub components
 const Topbar = React.lazy(() => import("./Topbar"));
 const Home = React.lazy(() => import("./Home"));
@@ -83,6 +84,9 @@ class IndexRoot extends Component {
           <WhatWeDo />
 
           <Reviews />
+
+          {/* <PageContactOne/> */}
+          <Contact />
 
           <ScrollUpButton
             ContainerClassName="classForContainer"

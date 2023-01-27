@@ -22,6 +22,24 @@ class Topbar extends Component {
           navheading: "Contact Us",
           url: "/page-contact-one",
         },
+        {
+          id: 3,
+          idnm: "services",
+          navheading: "Services",
+          url: "/page-services",
+        },
+        {
+          id: 4,
+          idnm: "Skills",
+          navheading: "Skills",
+          url: "/page-contact-one",
+        },
+        {
+          id: 5,
+          idnm: "team",
+          navheading: "Team",
+          url: "/page-contact-one",
+        },
         // { id: 2, idnm: "demos", navheading: "Demos" },
         // { id: 3, idnm: "features", navheading: "Features" },
       ],
@@ -42,18 +60,8 @@ class Topbar extends Component {
         <header id="topnav" className="defaultscroll sticky">
           <Container>
             <Link className="logo" to="/">
-              <img src={logodark} height="24" alt="" />
+              <img src="./logo.svg" height="70" alt="" />
             </Link>
-            <div className="buy-button">
-              <a
-                href="https://1.envato.market/Landrickreactjs"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-primary"
-              >
-                Download
-              </a>
-            </div>
             <div className="menu-extras">
               <div className="menu-item">
                 <Link
@@ -84,7 +92,7 @@ class Topbar extends Component {
               <ul className="navigation-menu">
                 {this.state.navItems.map((item, key) => (
                   <li key={key} className="has-submenu">
-                    <Link to={item.url}> {item.navheading}</Link>
+                    <Link to={item.url} style={{cursor: "pointer"}}> {item.navheading}</Link>
                   </li>
                 ))}
               </ul>

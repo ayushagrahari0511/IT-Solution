@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class ScrollspyNav extends Component {
+class Scrollspy extends Component {
     constructor(props) {
         super(props);
 
@@ -121,4 +121,4 @@ class ScrollspyNav extends Component {
     }
 }
 
-export default ScrollspyNav;
+export default Scrollspy;

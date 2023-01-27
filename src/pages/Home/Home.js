@@ -24,40 +24,36 @@ class Home extends Component {
             <Row className="align-items-center">
               <Col lg={7} md={7}>
                 <div className="title-heading">
-                  <img src={logo_dark} height="36" alt="" />
                   <h4 className="heading mt-4 mb-3">
-                    Built For &nbsp;
+                    {/* Software Development &nbsp; */}
+                    Our Creativity is Your
+                    &nbsp;
+                    <br />
                     <Typist>
-                      <span className="element text-primary">T-Shirts</span>
-                      <Typist.Backspace count={10} delay={400} />
-                      <span className="element text-primary">Goodies</span>
+                      <span className="element text-primary">Success</span>
+                      {/* <Typist.Backspace count={11} delay={400} /> */}
+                      {/* <span className="element text-primary"></span> */}
                     </Typist>
                   </h4>
                   <p className="para-desc text-muted">
-                    Start working with that can provide everything you need to
-                    generate awareness, drive traffic, connect.
+                    We power brands to build big!
+                  </p>
+                  <p className="para-desc text-muted">
+                    At Salvanix, we approach each engagement by starting with a detailed discussion of your business and technology challenges and goals. We then develop a strategy that will shape our engagement, ensure success, and provide you with the most exemplary software development services.
                   </p>
 
                   <div className="mt-4 pt-2">
                     <ScrollspyNav
-                      scrollTargetIds={["demos"]}
-                      activeNavclassName="active"
+                      scrollTargetIds={["getInTouch"]}
+                      activeNavClass="active"
                       scrollDuration="800"
                       headerBackground="true"
                     >
                       <a
-                        href="#demos"
-                        className="btn btn-primary rounded mouse-down mr-2 mb-2"
+                        href="#getInTouch"
+                        className="btn btn-primary rounded mr-2 mb-2"
                       >
-                        View Demos
-                      </a>
-                      <a
-                        href="https://1.envato.market/Landrickreactjs"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn btn-outline-primary rounded ml-1 mb-2"
-                      >
-                        Download Now
+                        Let's Connect
                       </a>
                     </ScrollspyNav>
                   </div>

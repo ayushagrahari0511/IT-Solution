@@ -166,7 +166,7 @@ class PageContactOne extends Component {
                 md={6}
                 className="mt-4 mt-sm-0 pt-2 pt-sm-0 order-2 order-md-1"
               >
-                <Card className="shadow rounded border-0">
+                <Card className="shadow rounded border-0" id="getInTouch">
                   <CardBody className="py-5">
                     <h4 className="card-title">Get In Touch !</h4>
                     <div className="custom-form mt-4">
