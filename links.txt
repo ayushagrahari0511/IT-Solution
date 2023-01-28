@@ -19,10 +19,6 @@ http://localhost:3000/index-onepage
 http://localhost:3000/page-aboutus-two
 http://localhost:3000/page-history
 
-
-////services
-http://localhost:3000/page-services
-
 ///Thankyou
 http://localhost:3000/page-thankyou
 
@@ -62,70 +58,3 @@ http://localhost:3000/email-invoice
 
 /Faq's
 http://localhost:3000/helpcenter-faqs
-
-
-
-      whatwedo: [
-        {
-          id: 1,
-          icon: "uil uil-desktop",
-          heading: "Custom Software Development",
-          desc: "Custom software development service tailored to specific needs and requirements of a client."
-        },
-        {
-          id: 3,
-          // icon: "uil uil-airplay",
-          icon: "uil uil-browser",
-          heading: "Web Development",
-          desc: "We offer a robust web development service with our developed high-performing applications."
-        },
-        {
-          id: 4,
-          icon: "uil uil-users-alt",
-          heading: "Dedicated Development Team",
-          desc: "Our dedicated development teams seamlessly engage with clients, onshore or offshore teams."
-        },
-        {
-          id: 5,
-          icon: "uil uil-store",
-          heading: "Ecommerce",
-          desc: "Create engaging ecommerce platforms that are flexible and sustainable to high volumes of traffic."
-        },
-        {
-          id: 6,
-          icon: "uil uil-rocket",
-          heading: "IT Management",
-          desc: "Helps organizations to manage and optimize their technology infrastructure and systems via planning, implementation and maintenance."
-        },
-        {
-          id: 7,
-          icon: "uil uil-cloud-computing",
-          heading: "Product Development",
-          desc: "Salvanix outlines a complete plan to modernize your legacy software system or develop new software products using our expertise."
-        },
-        {
-          id: 8,
-          icon: "uil uil-file-search-alt h1 text-primary",
-          heading: "Enterprise Solution",
-          desc: "Our software engineers offer a full spectrum of enterprise application development services from design to deployment"
-        },
-        {
-          id: 9,
-          icon: "uil uil-mobile-android",
-          heading: "Mobile Apps",
-          desc: "Our years of technical expertise skills help your business accelerate their needs. Our proficient mobile application developers create apps that are stellar to use with robust security and rich features."
-        },
-        {
-          id: 10,
-          icon: "uil uil-edit-alt h1 text-primary",
-          heading: "UI/UX Design",
-          desc: "We develop realistic wireframes and interactive UI/UX that halp clients communicate their business efficiently. Our designers are adept with the latest design patterns to enable you to achieve business objectives."
-        },
-        {
-          id: 11,
-          // icon: "uil uil-server-connection",
-          icon: "uil uil-cloud-check",
-          heading: "Software Testing & QA",
-          desc: "Employ our QA professionals for a superior level of quality and the right team of talented resources that meets your project needs. Salvanix offers a test automation framework for faster software testing, improved release cycles and unparalleled robustness."
-        },
-      ],

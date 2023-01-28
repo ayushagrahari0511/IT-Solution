@@ -266,28 +266,16 @@ class PageServices extends Component {
           </Container> */}
 
           <Container className="mt-100 mt-60">
-            <Row className="justify-content-center">
-              <Col xs="12" className="text-center">
+            <Row className="my-md-5 pt-md-3 my-4 pt-2 pb-lg-5 mt-sm-0 pt-sm-0 justify-content-center">
+              <Col xs={12} className="text-center">
                 <div className="section-title">
-                  <h4 className="title mb-4">
-                    See everything about your employee at one place.
-                  </h4>
-                  <p className="text-muted para-desc mx-auto mb-0">
-                    Start working with{" "}
-                    <span className="text-primary font-weight-bold">
-                      Landrick
-                    </span>{" "}
-                    that can provide everything you need to generate awareness,
-                    drive traffic, connect.
+                  <h4 className="title mb-4">Have Question ? Get in touch!</h4>
+                  <p className="text-muted para-desc mx-auto">
+                    Let us know what you are looking for?
                   </p>
-                  <div className="mt-4">
-                    <Link to="#" className="btn btn-primary mt-2 mr-2">
-                      Get Started Now
-                    </Link>
-                    <Link to="#" className="btn btn-outline-primary mt-2 ml-1">
-                      Free Trial
-                    </Link>
-                  </div>
+                  <Link to="/contact-us" className="btn btn-primary mt-4">
+                    <i className="mdi mdi-phone"></i> Contact us
+                  </Link>
                 </div>
               </Col>
             </Row>

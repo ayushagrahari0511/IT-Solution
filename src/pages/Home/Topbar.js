@@ -20,7 +20,7 @@ class Topbar extends Component {
           id: 2,
           idnm: "contact-us",
           navheading: "Contact Us",
-          url: "/page-contact-one",
+          url: "/contact-us",
         },
         {
           id: 3,
@@ -32,7 +32,7 @@ class Topbar extends Component {
           id: 4,
           idnm: "Skills",
           navheading: "Skills",
-          url: "/page-contact-one",
+          url: "/contact-us",
         },
         {
           id: 5,

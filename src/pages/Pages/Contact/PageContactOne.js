@@ -104,9 +104,6 @@ class PageContactOne extends Component {
                   </div>
                   <div className="content mt-3">
                     <h4 className="title font-weight-bold">Phone</h4>
-                    <p className="text-muted">
-                      Start working with Landrick that can provide everything
-                    </p>
                     <Link
                       to="#"
                       onClick={this.callNumber}
@@ -125,9 +122,6 @@ class PageContactOne extends Component {
                   </div>
                   <div className="content mt-3">
                     <h4 className="title font-weight-bold">Email</h4>
-                    <p className="text-muted">
-                      Start working with Landrick that can provide everything
-                    </p>
                     <Link
                       to="#"
                       onClick={this.sendMail}

@@ -18,9 +18,17 @@ import Appointment from "../Hospital/Appointment";
 import Contact from "./Contact";
 import Team from "../Saas Onepage/Team";
 import Partners from "../../components/Shared/Partners";
+import FeatureDescription from "../Classic Saas/FeatureDescription";
+import user from "../../assets/images/icon/user.svg";
+import calendar from "../../assets/images/icon/calendar.svg";
+import sandclock from "../../assets/images/icon/sand-clock.svg";
+import seo from "../../assets/images/digital/seo.gif";
+import WorkProcess from "../../components/Shared/WorkProcess";
+
 // Import sub components
 const Topbar = React.lazy(() => import("./Topbar"));
 const Home = React.lazy(() => import("./Home"));
+
 
 const CustomDot = () => {
   return (
@@ -33,8 +41,37 @@ const CustomDot = () => {
 class IndexRoot extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
   }
+
+  state = {
+    facilities: [
+      {
+        icon: "shield",
+        title: "Our Expert Team",
+        desc:
+          "Moreover, in Latin only words at the beginning of sentences are capitalized.",
+      },
+      {
+        icon: "cpu",
+        title: "Creative approach",
+        desc:
+          "If the fill text is intended to illustrate the characteristics of sometimes.",
+      },
+      {
+        icon: "",
+        title: "On time delivery"
+      },
+      {
+        icon: "",
+        title: "Progressive Roadmap"
+      },
+      {
+        icon: "",
+        title: "Robust architecture"
+      },
+    ],
+  };
+
 
   componentDidMount() {
     document.body.classList = "";
@@ -83,7 +120,13 @@ class IndexRoot extends Component {
           {/* <Collection /> */}
 
           <About />
+          <FeatureDescription
+            image1={seo}
+            image2={seo}
+            facilities={this.state.facilities}
+          />
 
+          <WorkProcess />
           <Team />
           {/* <Appointment /> */}
 

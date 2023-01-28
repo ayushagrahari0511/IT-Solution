@@ -78,7 +78,7 @@ export default class PageAboutusTwo extends Component {
 
         {/* <section
           className="bg-half d-table w-100"
-          // style={{ background: `url(${aboutus})` }}
+        // style={{ background: `url(${aboutus})` }}
         >
           <div className="bg-overlay"></div>
           <Container>
@@ -121,7 +121,7 @@ export default class PageAboutusTwo extends Component {
                   <div className="d-flex mb-4">
                     <span className="text-primary h1 mb-0">
                       <span className="counter-value display-1 font-weight-bold">
-                        <CountUp start={0} end={15} duration={12} />
+                        <CountUp start={0} end={10} duration={9} />
                       </span>
                       +
                     </span>
@@ -132,19 +132,18 @@ export default class PageAboutusTwo extends Component {
                   <div className="section-title">
                     <h4 className="title mb-4">Who we are ?</h4>
                     <p className="text-muted">
-                      Start working with{" "}
+                      We're Everything Best That You{" "}
                       <span className="text-primary font-weight-bold">
-                        Landrick
+                        Need!
                       </span>{" "}
-                      that can provide everything you need to generate
-                      awareness, drive traffic, connect. Dummy text is text that
-                      is used in the publishing industry or by web designers to
-                      occupy the space which will later be filled with 'real'
-                      content. This is required when, for example, the final
-                      text is not yet available. Dummy texts have been in use by
-                      typesetters since the 16th century.
                     </p>
-                    <Link to="#" className="btn btn-primary mt-3">
+                    <p>
+                      Our mission is to maintain a constant learn and build approach.
+                      This will lead us to serve better and progress faster as the industry moves forward.
+                      As we say, We power brands to build big, we strengthen ourselves in a well-cultivated manner to serve better.
+                      This helps us sustain relationships with our esteemed clients both before and after fulfilling their requirements.
+                    </p>
+                    <Link to="/contact-us" className="btn btn-primary mt-3">
                       Contact us
                     </Link>
                   </div>
@@ -172,7 +171,19 @@ export default class PageAboutusTwo extends Component {
           {/* Work process render */}
           <WorkProcess />
         </section>
-        <ExperienceTeam />
+        <Row className="my-md-5 pt-md-3 my-4 pt-2 pb-lg-5 mt-sm-0 pt-sm-0 justify-content-center">
+          <Col xs={12} className="text-center">
+            <div className="section-title">
+              <h4 className="title mb-4">Have Question ? Get in touch!</h4>
+              <p className="text-muted para-desc mx-auto">
+                Let us know what you are looking for?
+              </p>
+              <Link to="/contact-us" className="btn btn-primary mt-4">
+                <i className="mdi mdi-phone"></i> Contact us
+              </Link>
+            </div>
+          </Col>
+        </Row>
       </React.Fragment>
     );
   }

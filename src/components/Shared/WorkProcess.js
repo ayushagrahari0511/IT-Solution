@@ -11,14 +11,14 @@ export default class WorkProcess extends Component {
               <div className="section-title text-center mb-4 pb-2">
                 <h6 className="text-primary">Work Process</h6>
                 <h4 className="title mb-4">How do we works ?</h4>
-                <p className="text-muted para-desc mx-auto mb-0">
+                {/* <p className="text-muted para-desc mx-auto mb-0">
                   Start working with{" "}
                   <span className="text-primary font-weight-bold">
                     Landrick
                   </span>{" "}
                   that can provide everything you need to generate awareness,
                   drive traffic, connect.
-                </p>
+                </p> */}
               </div>
             </Col>
           </Row>
@@ -31,10 +31,9 @@ export default class WorkProcess extends Component {
                 </div>
 
                 <CardBody>
-                  <h5 className="text-dark">Discussion</h5>
+                  <h5 className="text-dark">Explore Our Services</h5>
                   <p className="text-muted mb-0">
-                    The most well-known dummy text is the 'Lorem Ipsum', which
-                    is said to have originated
+                    We have a wide variety of services to help you develop your product.
                   </p>
                 </CardBody>
               </Card>
@@ -47,10 +46,9 @@ export default class WorkProcess extends Component {
                 </div>
 
                 <CardBody>
-                  <h5 className="text-dark">Strategy & Testing</h5>
+                  <h5 className="text-dark">Consult with Us</h5>
                   <p className="text-muted mb-0">
-                    Generators convallis odio, vel pharetra quam malesuada vel.
-                    Nam porttitor malesuada.
+                    To analyse your requirement in a better way and find the best possible solution.
                   </p>
                 </CardBody>
               </Card>
@@ -63,10 +61,9 @@ export default class WorkProcess extends Component {
                 </div>
 
                 <CardBody>
-                  <h5 className="text-dark">Reporting</h5>
+                  <h5 className="text-dark">Get your Product</h5>
                   <p className="text-muted mb-0">
-                    Internet Proin tempus odio, vel pharetra quam malesuada vel.
-                    Nam porttitor malesuada.
+                    A cost effective solution, in the least possible time.
                   </p>
                 </CardBody>
               </Card>

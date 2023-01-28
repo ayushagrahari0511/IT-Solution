@@ -412,8 +412,8 @@ const routes = [
     { path: "/index-digital-agency", component: DigitalAgency },
     { path: "/index-online-learning", component: OnlineLearning },
 
-    { path: "/about-us", component: PageAboutUs },
-    { path: "/page-aboutus-two", component: PageAboutusTwo },
+    { path: "/about-us-one", component: PageAboutUs },
+    { path: "/about-us", component: PageAboutusTwo },
     { path: "/page-history", component: PageHistory },
     { path: "/page-pricing", component: PagePricing },
     { path: "/services", component: PageServices },
@@ -476,7 +476,7 @@ const routes = [
     { path: "/page-case-detail", component: CaseDetail },
 
     //Page Contact
-    { path: "/page-contact-one", component: PageContactOne },
+    { path: "/contact-us", component: PageContactOne },
     { path: "/page-contact-three", component: PageContactThree },
     { path: "/page-contact-two", component: PageContactTwo },
 
