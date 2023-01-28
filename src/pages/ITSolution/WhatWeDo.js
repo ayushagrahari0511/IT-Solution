@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import SectionTitle from "../../components/Shared/SectionTitle";
 import { Container, Row, Col } from "reactstrap";
+import { Link } from "react-router-dom";
+//Import Icons
+import FeatherIcon from "feather-icons-react";
+
 // import FeatherIcon
 
 // Modal Video
@@ -14,51 +18,41 @@ export default class WhatWeDo extends Component {
       whatwedo: [
         {
           id: 1,
-          icon: "uil uil-chart-line",
-          heading: "Hign Performance",
-          desc: "It is a long established fact that a reader.",
-        },
-        {
-          id: 2,
-          icon: "uil uil-crosshairs",
-          heading: "Best Securities",
-          desc: "It is a long established fact that a reader.",
+          icon: "uil uil-desktop",
+          heading: "Custom Software Development",
+          desc: "Translate unique client requirements into custom software solutions with premier quality and advanced technologies."
         },
         {
           id: 3,
-          icon: "uil uil-airplay",
-          heading: "Trusted Service",
-          desc: "It is a long established fact that a reader.",
+          // icon: "uil uil-airplay",
+          icon: "uil uil-browser",
+          heading: "Web Development",
+          desc: "Revolutionize your business ideas using web development services for innovative and next-gen web apps."
         },
         {
           id: 4,
-          icon: "uil uil-rocket",
-          heading: "Info Technology",
-          desc: "It is a long established fact that a reader.",
-        },
-        {
-          id: 5,
-          icon: "uil uil-clock",
-          heading: "24/7 Support",
-          desc: "It is a long established fact that a reader.",
-        },
-        {
-          id: 6,
           icon: "uil uil-users-alt",
-          heading: "IT Management",
-          desc: "It is a long established fact that a reader.",
+          heading: "Dedicated Development Team",
+          desc: "Grow your business development team as per project size and meet intermittent deadlines utilizing our flexible resource model."
         },
         {
           id: 7,
-          icon: "uil uil-file-alt",
-          heading: "Certified Company",
-          desc: "It is a long established fact that a reader.",
+          icon: "uil uil-cloud-computing",
+          heading: "Product Development",
+          desc: "Intellectually comprehend client's business ideas to develop innovative software solutions with scalable product architecture."
         },
         {
-          id: 8,
-          icon: "uil uil-search",
-          heading: "Data Analytics",
-          desc: "It is a long established fact that a reader.",
+          id: 9,
+          icon: "uil uil-mobile-android",
+          heading: "Mobile Apps",
+          desc: "Achieve digital transformation by developing scalable, engaging and feature rich mobile applications."
+        },
+        {
+          id: 11,
+          // icon: "uil uil-server-connection",
+          icon: "uil uil-cloud-check",
+          heading: "Software Testing & QA",
+          desc: "Maintain Quality Assurance by recctifying errors and debugging applications for a high-performing application."
         },
       ],
     };
@@ -80,14 +74,15 @@ export default class WhatWeDo extends Component {
                 {/* render Section title */}
                 <SectionTitle
                   title="What we do ?"
-                  desc=" that can provide everything you need to generate awareness, drive traffic, connect."
+                  // desc=" From IT strategy consulting and comprehensive technology roadmaps to the end-to-end development of scalable solutions, Salvanix delivers a full-cycle software development services that adapt seamlessly to your project requirements and business needs."
+                  desc="Our software development services do not restrict to specific domain or technology but inclusively covers every business industry with offerings such as"
                 />
               </div>
             </Row>
             <Row>
               {this.state.whatwedo.map((items, key) => (
-                <Col lg={3} md={4} className="mt-4 pt-2" key={key}>
-                  <div className="card features fea-primary rounded p-4 bg-light text-center position-relative overflow-hidden border-0">
+                <Col lg={4} md={6} className="mt-4 pt-2" key={key}>
+                  <div className="card features fea-primary rounded p-4 bg-light text-center position-relative overflow-hidden border-0" style={{ height: "100%" }}>
                     <span className="h1 icon2 text-primary">
                       <i className={items.icon}></i>
                     </span>
@@ -102,6 +97,20 @@ export default class WhatWeDo extends Component {
                 </Col>
               ))}
             </Row>
+            <div className="mt-4 pt-2" style={{display: "flex", alignItems:"center", justifyContent: "center"}}>
+              <Link
+                to="/services"
+                className="btn btn-primary m-1"
+              >
+                Read More{" "}
+                <i>
+                  <FeatherIcon
+                    icon="chevron-right"
+                    className="fea icon-sm"
+                  />
+                </i>
+              </Link>
+            </div>
           </Container>
         </section>
       </React.Fragment>

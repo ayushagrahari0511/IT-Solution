@@ -14,10 +14,9 @@ class Footer extends Component {
     super(props);
     this.state = {
       grid1: [
-        { title: "About us", link: "/page-aboutus" },
-        { title: "Contact us", link: "/page-contact-one" },
-        { title: "Services", link: "/page-services" },
-        { title: "Login", link: "/page-cover-login" },
+        { id: 1, title: "About us", link: "/about-us" },
+        { id: 2, title: "Contact us", link: "/page-contact-one" },
+        { id: 3, title: "Services", link: "/services" },
       ],
       grid2: [
         { title: "Terms of Services", link: "/page-terms" },
@@ -44,16 +43,15 @@ class Footer extends Component {
               >
                 <Link to="#" className="logo-footer">
                   <img
-                    src={this.props.isLight ? logodark : logolight}
-                    height="24"
+                    src="./logo_light.svg"
+                    height="60"
                     alt=""
                   />
                 </Link>
                 <p className={this.props.isLight ? "mt-4 text-muted" : "mt-4"}>
-                  Start working with Landrick that can provide everything you
-                  need to generate awareness, drive traffic, connect.
+                  We power brands to build big!
                 </p>
-                <ul className="list-unstyled social-icon social mb-0 mt-4">
+                {/* <ul className="list-unstyled social-icon social mb-0 mt-4">
                   <li className="list-inline-item ml-1">
                     <Link to="" className="rounded">
                       <i>
@@ -85,7 +83,7 @@ class Footer extends Component {
                       </i>
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </Col>
 
               <Col
@@ -106,7 +104,7 @@ class Footer extends Component {
                 </h5>
                 <ul className="list-unstyled footer-list mt-4">
                   {this.state.grid1.map((grid, key) => (
-                    <li key={key}>
+                    <li key={grid.id}>
                       <Link
                         to={grid.link}
                         className={

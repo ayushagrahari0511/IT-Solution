@@ -85,45 +85,63 @@ class PageServices extends Component {
       features: [
         {
           id: 1,
-          icon: "uil uil-edit-alt h1 text-primary",
-          title: "Design & Development",
-          description:
-            "Nisi aenean vulputate eleifend tellus vitae eleifend enim a Aliquam aenean elementum semper.",
-        },
-        {
-          id: 2,
-          icon: "uil uil-vector-square h1 text-primary",
-          title: "Management & Marketing",
-          description:
-            "Allegedly, a Latin scholar established the origin of the text by established compiling unusual word.",
+          icon: "uil uil-desktop  h1 text-primary",
+          title: "Custom Software Development",
+          description: "From a growing business to an established one, Salvanix offers full-stack custom software development services for web, desktop and mobile ensuring scalability and responsiveness at every stage of the development cycle."
         },
         {
           id: 3,
-          icon: "uil uil-file-search-alt h1 text-primary",
-          title: "Stratagy & Research",
-          description:
-            "It seems that only fragments of the original text remain in the Lorem Ipsum fragments texts used today.",
+          icon: "uil uil-browser h1 text-primary",
+          title: "Web Development",
+          description: "We match unique development needs of B2B or B2C businesses and offer a robust web development service that accelerates business profitability in the market with our developed high-performing applications."
         },
         {
           id: 4,
-          icon: "uil uil-airplay h1 text-primary",
-          title: "Easy To Use",
-          description:
-            "Nisi aenean vulputate eleifend tellus vitae eleifend enim a Aliquam aenean elementum semper.",
+          icon: "uil uil-users-alt h1 text-primary",
+          title: "Dedicated Development Team",
+          description: "We offer a scalable resource model for businesses to manage project needs or intermittent deadlines. Our dedicated development teams seamlessly engage with clients, onshore or offshore teams."
         },
         {
           id: 5,
-          icon: "uil uil-calendar-alt h1 text-primary",
-          title: "Daily Reports",
-          description:
-            "Allegedly, a Latin scholar established the origin of the text by compiling unusual established word.",
+          icon: "uil uil-store h1 text-primary",
+          title: "Ecommerce",
+          description: "Create engaging ecommerce platforms that are flexible and sustainable to high volumes of traffic with interactive user experience. Our technology consulting services enriches digital experience with easy system integration to existing ERP and custom POS."
         },
         {
           id: 6,
-          icon: "uil uil-clock h1 text-primary",
-          title: "Real Time Zone",
-          description:
-            "It seems that only fragments of the original text remain in the Lorem Ipsum texts used fragments today.",
+          icon: "uil uil-rocket h1 text-primary",
+          title: "IT Management",
+          description: "Helps organizations to manage and optimize their technology infrastructure and systems through planning, implementation, monitoring and maintenance."
+        },
+        {
+          id: 7,
+          icon: "uil uil-cloud-computing h1 text-primary",
+          title: "Product Development",
+          description: "Salvanix outlines a complete plan to modernize your legacy software system or develop new software products using our expertise. We understand the scope, explore the potential and reduce the development stress, with efficient and performing applications."
+        },
+        {
+          id: 8,
+          icon: "uil uil-file-search-alt h1 text-primary",
+          title: "Enterprise Solution",
+          description: "Our software engineers offer a full spectrum of enterprise application development services from design to deployment for daunting business challenges by modernizing and upgrading legacy systems and integrating them with newer business applications."
+        },
+        {
+          id: 9,
+          icon: "uil uil-mobile-android h1 text-primary",
+          title: "Mobile Apps",
+          description: "Our years of technical expertise skills help your business accelerate their needs. Our proficient mobile application developers create apps that are stellar to use with robust security and rich features."
+        },
+        {
+          id: 10,
+          icon: "uil uil-edit-alt h1 text-primary",
+          title: "UI/UX Design",
+          description: "We develop realistic wireframes and interactive UI/UX that halp clients communicate their business efficiently. Our designers are adept with the latest design patterns to enable you to achieve business objectives."
+        },
+        {
+          id: 11,
+          icon: "uil uil-cloud-check h1 text-primary",
+          title: "Software Testing & QA",
+          description: "Employ our QA professionals for a superior level of quality and the right team of talented resources that meets your project needs. Salvanix offers a test automation framework for faster software testing, improved release cycles and unparalleled robustness."
         },
       ],
       works: [
@@ -203,22 +221,10 @@ class PageServices extends Component {
             {/* feature box */}
             <Feature featureArray={this.state.features} />
           </Container>
-
-          <Container className="mt-100 mt-60">
-            {/* Render Section Title */}
-            <SectionTitle
-              title="Client Reviews"
-              desc="that can provide everything you need to generate awareness, drive traffic, connect."
-            />
-
-            {/* clients slider */}
-            <ReviewsSlider reviews={this.state.reviews} colClass="mt-4" />
-          </Container>
         </section>
 
         <section className="section bg-light">
-          <Container>
-            {/* Render Section Title */}
+          {/* <Container>
             <SectionTitle
               title="Our Latest Projects"
               desc="that can provide everything you need to generate awareness, drive traffic, connect."
@@ -257,7 +263,7 @@ class PageServices extends Component {
                 </Col>
               ))}
             </Row>
-          </Container>
+          </Container> */}
 
           <Container className="mt-100 mt-60">
             <Row className="justify-content-center">

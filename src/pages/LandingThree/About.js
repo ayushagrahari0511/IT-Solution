@@ -26,15 +26,6 @@ export default class About extends Component {
                     <CardBody className="p-0">
                       <img src={online1} className="img-fluid" alt="" />
                       <div className="overlay-work bg-dark"></div>
-                      <div className="content">
-                        <Link
-                          to="#"
-                          className="title text-white d-block font-weight-bold"
-                        >
-                          Web Development
-                        </Link>
-                        <small className="text-light">IT & Software</small>
-                      </div>
                     </CardBody>
                   </Card>
                 </Col>
@@ -46,15 +37,6 @@ export default class About extends Component {
                         <CardBody className="p-0">
                           <img src={online2} className="img-fluid" alt="" />
                           <div className="overlay-work bg-dark"></div>
-                          <div className="content">
-                            <Link
-                              to="#"
-                              className="title text-white d-block font-weight-bold"
-                            >
-                              Michanical Engineer
-                            </Link>
-                            <small className="text-light">Engineering</small>
-                          </div>
                         </CardBody>
                       </Card>
                     </Col>
@@ -64,15 +46,6 @@ export default class About extends Component {
                         <CardBody className="p-0">
                           <img src={online3} className="img-fluid" alt="" />
                           <div className="overlay-work bg-dark"></div>
-                          <div className="content">
-                            <Link
-                              to="#"
-                              className="title text-white d-block font-weight-bold"
-                            >
-                              Chartered Accountant
-                            </Link>
-                            <small className="text-light">C.A.</small>
-                          </div>
                         </CardBody>
                       </Card>
                     </Col>
@@ -86,47 +59,31 @@ export default class About extends Component {
                 <div className="section-title mb-4 pb-2">
                   <h4 className="title mb-4">About Our Story</h4>
                   <p className="text-muted para-desc">
-                    Start working with{" "}
+                    We're Everything Best That You{" "}
                     <span className="text-primary font-weight-bold">
-                      Landrick
+                      Need!
                     </span>{" "}
-                    that can provide everything you need to generate awareness,
-                    drive traffic, connect.
                   </p>
                   <p className="text-muted para-desc mb-0">
-                    The most well-known dummy text is the 'Lorem Ipsum', which
-                    is said to have originated in the 16th century. Lorem Ipsum
-                    is composed in a pseudo-Latin language which more or less
-                    corresponds to 'proper' Latin. It contains a series of real
-                    Latin words.
+                    Our mission is to maintain a constant learn and build approach.
+                    This will lead us to serve better and progress faster as the industry moves forward.
+                    As we say, We power brands to build big, we strengthen ourselves in a well-cultivated manner to serve better.
+                    This helps us sustain relationships with our esteemed clients both before and after fulfilling their requirements.
                   </p>
                 </div>
 
-                <ul className="list-unstyled text-muted">
+                {/* <ul className="list-unstyled text-muted">
                   <li className="mb-0">
                     <span className="text-primary h4 mr-2">
                       <i className="uil uil-check-circle align-middle"></i>
                     </span>
                     Fully Responsive
                   </li>
-                  <li className="mb-0">
-                    <span className="text-primary h4 mr-2">
-                      <i className="uil uil-check-circle align-middle"></i>
-                    </span>
-                    Multiple Layouts
-                  </li>
-                  <li className="mb-0">
-                    <span className="text-primary h4 mr-2">
-                      <i className="uil uil-check-circle align-middle"></i>
-                    </span>
-                    Suits Your Style
-                  </li>
-                </ul>
+                </ul> */}
 
                 <div className="watch-video mt-4 pt-2">
                   <Link
-                    to="https://1.envato.market/Landrickreactjs"
-                    target="_blank"
+                    to="/about-us"
                     className="btn btn-primary m-1"
                   >
                     Read More{" "}
@@ -137,18 +94,6 @@ export default class About extends Component {
                       />
                     </i>
                   </Link>
-                  <Link
-                    to="#"
-                    onClick={this.openModal}
-                    className="btn btn-icon btn-pills video-play-icon btn-primary m-1"
-                  >
-                    <i>
-                      <FeatherIcon icon="video" className="icons" />
-                    </i>
-                  </Link>
-                  <span className="font-weight-bold text-uppercase small align-middle ml-1">
-                    Watch Now
-                  </span>
                 </div>
               </div>
             </Col>

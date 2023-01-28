@@ -29,20 +29,6 @@ class TeamBox extends Component {
                     className="img-fluid avatar avatar-ex-large rounded-circle shadow"
                     alt=""
                   />
-                  <ul className="list-unstyled social-icon team-icon mb-0 mt-4">
-                    {candidate.socialIds.map((id, key) => (
-                      <li key={key} className="list-inline-item mr-1">
-                        <Link to={id.link} className="rounded">
-                          <i>
-                            <FeatherIcon
-                              icon={id.icon}
-                              className="fea icon-sm fea-social"
-                            />
-                          </i>
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
                 </div>
                 <div
                   className={

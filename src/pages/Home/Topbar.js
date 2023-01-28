@@ -14,7 +14,7 @@ class Topbar extends Component {
           id: 1,
           idnm: "about-us",
           navheading: "About Us",
-          url: "/page-aboutus-two",
+          url: "/about-us",
         },
         {
           id: 2,
@@ -26,7 +26,7 @@ class Topbar extends Component {
           id: 3,
           idnm: "services",
           navheading: "Services",
-          url: "/page-services",
+          url: "/services",
         },
         {
           id: 4,
@@ -38,7 +38,7 @@ class Topbar extends Component {
           id: 5,
           idnm: "team",
           navheading: "Team",
-          url: "/page-contact-one",
+          url: "/our-team",
         },
         // { id: 2, idnm: "demos", navheading: "Demos" },
         // { id: 3, idnm: "features", navheading: "Features" },
@@ -60,7 +60,7 @@ class Topbar extends Component {
         <header id="topnav" className="defaultscroll sticky">
           <Container>
             <Link className="logo" to="/">
-              <img src="./logo.svg" height="70" alt="" />
+              <img src="./logo.svg" height="60" alt="" />
             </Link>
             <div className="menu-extras">
               <div className="menu-item">

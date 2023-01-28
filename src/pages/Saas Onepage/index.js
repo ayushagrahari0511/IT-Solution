@@ -132,7 +132,6 @@ class SaasOnepage extends Component {
           <Testimonials />
 
           <Container className="pt-5">
-            {/* partners */}
             <Partners />
           </Container>
         </section>

@@ -412,12 +412,12 @@ const routes = [
     { path: "/index-digital-agency", component: DigitalAgency },
     { path: "/index-online-learning", component: OnlineLearning },
 
-    { path: "/page-aboutus", component: PageAboutUs },
+    { path: "/about-us", component: PageAboutUs },
     { path: "/page-aboutus-two", component: PageAboutusTwo },
     { path: "/page-history", component: PageHistory },
     { path: "/page-pricing", component: PagePricing },
-    { path: "/page-services", component: PageServices },
-    { path: "/page-team", component: PageTeam },
+    { path: "/services", component: PageServices },
+    { path: "/our-team", component: PageTeam },
 
     //Help Center
     { path: "/helpcenter-overview", component: HelpCenterOverview },

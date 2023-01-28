@@ -5,71 +5,83 @@ import { Container, Row } from "reactstrap";
 import SectionTitle from "../../components/Shared/SectionTitle";
 import TeamBox from "../../components/Shared/TeamBox";
 
-//Import Images
-import image1 from "../../assets/images/client/01.jpg";
-import image2 from "../../assets/images/client/02.jpg";
-import image3 from "../../assets/images/client/03.jpg";
-import image4 from "../../assets/images/client/04.jpg";
-
 class Team extends Component {
   state = {
     candidates: [
       {
         id: 1,
-        image: image1,
-        name: "Ronny Jofra",
-        designation: "Web Developer",
+        image: "./praveen_kumar.jpeg",
+        name: "Praveen Kumar",
+        designation: "Flutter Developer",
         salary: "2300",
         link: "",
-        socialIds: [
-          { icon: "facebook", link: "#" },
-          { icon: "instagram", link: "#" },
-          { icon: "twitter", link: "#" },
-          { icon: "linkedin", link: "#" },
-        ],
       },
       {
         id: 2,
-        image: image4,
-        name: "Micheal Carlo",
-        designation: "Web Designer",
+        image: "./praveen_bhargava.jpeg",
+        name: "Praveen Bhargava",
+        designation: "Software Tester",
         salary: "1950",
         link: "",
-        socialIds: [
-          { icon: "facebook", link: "#" },
-          { icon: "instagram", link: "#" },
-          { icon: "twitter", link: "#" },
-          { icon: "linkedin", link: "#" },
-        ],
       },
       {
         id: 3,
-        image: image3,
-        name: "Aliana Rosy",
-        designation: "IOS Developer",
+        image: "./anshul_nayak.jpeg",
+        name: "Anshul Nayak",
+        designation: "Software Tester",
         salary: "2540",
         link: "",
-        socialIds: [
-          { icon: "facebook", link: "#" },
-          { icon: "instagram", link: "#" },
-          { icon: "twitter", link: "#" },
-          { icon: "linkedin", link: "#" },
-        ],
       },
       {
         id: 4,
-        image: image2,
-        name: "Sofia Razaq",
-        designation: "Php Developer",
+        image: "./chirag_dugar.jpeg",
+        name: "Chirag Dugar ",
+        designation: "Software Developer",
         salary: "2190",
         link: "",
-        socialIds: [
-          { icon: "facebook", link: "#" },
-          { icon: "instagram", link: "#" },
-          { icon: "twitter", link: "#" },
-          { icon: "linkedin", link: "#" },
-        ],
       },
+
+      // {
+      //   id: 5,
+      //   image: "./nikhil_ramrakhyani.jpeg",
+      //   name: "Nikhil Ramrakhyani",
+      //   designation: "Full-Stack Web Developer",
+      //   salary: "2190",
+      //   link: "",
+      // },
+      // {
+      //   id: 6,
+      //   image: "./sahil_agarwal.jpeg",
+      //   name: "Sahil Agarwal",
+      //   designation: "Flutter Developer",
+      //   salary: "2190",
+      //   link: "",
+      // },
+      // {
+      //   id: 5,
+      //   image: "./arpit_gupta.jpeg",
+      //   name: "Arpit Gupta",
+      //   designation: "Software Developer",
+      //   salary: "2190",
+      //   link: "",
+      // },
+      // {
+      //   id: 5,
+      //   image: "./raj_singh.jpeg",
+      //   name: "Raj Singh",
+      //   designation: "UI/UX Designer",
+      //   salary: "2190",
+      //   link: "",
+      // },
+      // {
+      //   id: 5,
+      //   image: "./rohan_singh.jpeg",
+      //   name: "Rohan Singh",
+      //   designation: "ASP.NET Developer",
+      //   salary: "2190",
+      //   link: "",
+      // },
+
     ],
   };
 
@@ -80,8 +92,8 @@ class Team extends Component {
           <Container>
             {/* section title */}
             <SectionTitle
-              title="Our Team Member"
-              desc="that can provide everything you need to generate awareness, drive traffic, connect."
+              title="Our Mind Power"
+              description="Meet our team who deliver futuristic tech solutions to every business."
             />
 
             <Row>

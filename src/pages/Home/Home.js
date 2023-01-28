@@ -39,7 +39,7 @@ class Home extends Component {
                     We power brands to build big!
                   </p>
                   <p className="para-desc text-muted">
-                    At Salvanix, we approach each engagement by starting with a detailed discussion of your business and technology challenges and goals. We then develop a strategy that will shape our engagement, ensure success, and provide you with the most exemplary software development services.
+                    Salvanix excels in solving complex software development challenges using thought process and technoloy solutions.
                   </p>
 
                   <div className="mt-4 pt-2">

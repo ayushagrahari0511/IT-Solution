@@ -1,5 +1,6 @@
 // React basic and bootstrap
 import React, { Component, Suspense } from "react";
+import { Container } from "reactstrap";
 
 // Scroll up button
 import ScrollUpButton from "react-scroll-up-button";
@@ -9,13 +10,14 @@ import FeatherIcon from "feather-icons-react";
 
 // Import css
 import "./css/demo.css";
-import Collection from "../Shop/Collection";
+// import Collection from "../Shop/Collection";
 import About from "../LandingThree/About";
 import Reviews from "../Job/Reviews";
 import WhatWeDo from "../ITSolution/WhatWeDo";
 import Appointment from "../Hospital/Appointment";
-import PageContactOne from "../Pages/Contact/PageContactOne";
 import Contact from "./Contact";
+import Team from "../Saas Onepage/Team";
+import Partners from "../../components/Shared/Partners";
 // Import sub components
 const Topbar = React.lazy(() => import("./Topbar"));
 const Home = React.lazy(() => import("./Home"));
@@ -74,18 +76,20 @@ class IndexRoot extends Component {
           <Topbar />
 
           <Home />
-
-          <Collection />
+          <WhatWeDo />
+          <Container className="pt-5 pb-5 bg-light">
+            <Partners />
+          </Container>
+          {/* <Collection /> */}
 
           <About />
 
-          <Appointment />
+          <Team />
+          {/* <Appointment /> */}
 
-          <WhatWeDo />
 
-          <Reviews />
+          {/* <Reviews /> */}
 
-          {/* <PageContactOne/> */}
           <Contact />
 
           <ScrollUpButton
