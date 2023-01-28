@@ -47,6 +47,7 @@ class Layout extends Component {
             style={{ height: 36, width: 36 }}
             TransitionClassName="classForTransition"
           >
+            
             <CustomDot />
           </ScrollUpButton>
           {/* </div> */}
