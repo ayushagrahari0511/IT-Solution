@@ -26,7 +26,7 @@ class Team extends Component {
       },
       {
         id: 3,
-        image: "./anshul_nayak.jpeg",
+        image: "./Anshul_nayak.jpeg",
         name: "Anshul Nayak",
         designation: "Software Tester",
         salary: "2540",
