@@ -26,21 +26,41 @@ class Home extends Component {
                 <div className="title-heading">
                   <h4 className="heading mt-4 mb-3">
                     {/* Software Development &nbsp; */}
-                    Our Creativity is Your
-                    &nbsp;
+                    We are here for &nbsp;
                     <br />
                     <Typist>
-                      <span className="element text-primary">Success</span>
-                      {/* <Typist.Backspace count={11} delay={400} /> */}
-                      {/* <span className="element text-primary"></span> */}
+                      <span className="element text-primary">
+                        Website Development
+                      </span>
+                      <Typist.Backspace count={20} delay={10} />
+                      <span className="element text-primary">
+                        Mobile App Development
+                      </span>
+                      <Typist.Backspace count={30} delay={10} />
+                      <span className="element text-primary">
+                        SaaS Development
+                      </span>
+                      <Typist.Backspace count={30} delay={10} />
+                      <span className="element text-primary">
+                        Automated Testing
+                      </span>
+                      <Typist.Backspace count={30} delay={400} />
+                      <span className="element text-primary">
+                        Manual Testing
+                      </span>
+                      <Typist.Backspace count={30} delay={400} />
+                      <span className="element text-primary">
+                        Fullstack Software Development
+                      </span>
                     </Typist>
                   </h4>
-                  <p className="para-desc text-muted">
+                  {/* <p className="para-desc text-muted">
                     We power brands to build big!
                   </p>
                   <p className="para-desc text-muted">
-                    Salvanix excels in solving complex software development challenges using thought process and technoloy solutions.
-                  </p>
+                    Salvanix excels in solving complex software development
+                    challenges using thought process and technoloy solutions.
+                  </p> */}
 
                   <div className="mt-4 pt-2">
                     <ScrollspyNav

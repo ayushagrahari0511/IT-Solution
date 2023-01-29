@@ -57,19 +57,20 @@ export default class About extends Component {
             <Col lg={6} md={6} className="mt-4 mt-lg-0 pt- pt-lg-0">
               <div className="ml-lg-4">
                 <div className="section-title mb-4 pb-2">
-                  <h4 className="title mb-4">About Our Story</h4>
-                  <p className="text-muted para-desc">
+                  <h4 className="title mb-4">Services We offer</h4>
+                  {/* <p className="text-muted para-desc">
                     We're Everything Best That You{" "}
-                    <span className="text-primary font-weight-bold">
-                      Need!
-                    </span>{" "}
+                    <span className="text-primary font-weight-bold">Need!</span>{" "}
                   </p>
                   <p className="text-muted para-desc mb-0">
-                    Our mission is to maintain a constant learn and build approach.
-                    This will lead us to serve better and progress faster as the industry moves forward.
-                    As we say, We power brands to build big, we strengthen ourselves in a well-cultivated manner to serve better.
-                    This helps us sustain relationships with our esteemed clients both before and after fulfilling their requirements.
-                  </p>
+                    Our mission is to maintain a constant learn and build
+                    approach. This will lead us to serve better and progress
+                    faster as the industry moves forward. As we say, We power
+                    brands to build big, we strengthen ourselves in a
+                    well-cultivated manner to serve better. This helps us
+                    sustain relationships with our esteemed clients both before
+                    and after fulfilling their requirements.
+                  </p> */}
                 </div>
 
                 {/* <ul className="list-unstyled text-muted">
@@ -81,7 +82,7 @@ export default class About extends Component {
                   </li>
                 </ul> */}
 
-                <div className="watch-video mt-4 pt-2">
+                {/* <div className="watch-video mt-4 pt-2">
                   <Link
                     to="/about-us"
                     className="btn btn-primary m-1"
@@ -94,7 +95,7 @@ export default class About extends Component {
                       />
                     </i>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </Col>
           </Row>

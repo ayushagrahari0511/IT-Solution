@@ -60,15 +60,14 @@ class FeatureDescription extends Component {
             >
               <div className="section-title mr-lg-4">
                 <h1 className="title mb-3">Why Choose us ?</h1>
-                <p className="para-desc text-muted">
+                {/* <p className="para-desc text-muted">
                   At Salvanix we are keen to work with new age technology to serve our customers with the latest tech stack.
                   We focus on each and every client individually and make sure they stick with us for the long run.
                   This is what makes us one of the top Software Development Companies in India.
-                </p>
+                </p> */}
                 <Row>
                   {this.props.facilities.map((facility, key) => (
                     <Col xs="12" key={key}>
-
                       <ul className="list-unstyled text-muted">
                         <li className="mb-0">
                           <span className="text-primary h4 mr-2">

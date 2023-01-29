@@ -20,10 +20,11 @@ class SectionTitle extends Component {
                 }
                 name="sectiondesc"
               >
-                Start working with{" "}
-                <span className="text-primary font-weight-bold">Salvanix.</span>{" "}
-                {this.props.desc}{" "}
-                <p>{this.props.description}{" "}</p>
+                {/* Start working with{" "} */}
+                {/* <span className="text-primary font-weight-bold">
+                  Salvanix.
+                </span>{" "} */}
+                {this.props.desc} <p>{this.props.description} </p>
               </p>
             </div>
           </Col>
